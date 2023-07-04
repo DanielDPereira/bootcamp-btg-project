@@ -63,6 +63,17 @@ body{
 
 a.nav-link{
     font-size: 1.1em!important;
+    color: black!important;
+}
+
+a.nav-link.active{
+    font-size: 1.1em!important;
+    color: rgb(100, 100, 100)!important;
+}
+
+a:hover {
+    transition: 0.5s;
+    opacity: 0.7;
 }
 
 nav{
