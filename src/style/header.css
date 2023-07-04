@@ -32,28 +32,28 @@ body{
 }
 
 .collapse.navbar-collapse.justify-content-end{
-    background-color: #0b2859!important;
-    color: #0b2859!important;
-    background: #0b2859!important;
+    background-color: white!important;
+    color: white!important;
+    background: white!important;
 }
 
 .navbar.navbar-expand-sm.bg-dark.navbar-dark{
-    color: #0b2859!important;
-    background-color: #0b2859!important;
-    background: #0b2859!important;
+    color: white!important;
+    background-color: white!important;
+    background: white!important;
 }
 
 .nav.navbar.navbar-expand-sm.bg-dark.navbar-dark{
-    background: #0b2859!important;
+    background: white!important;
 }
 
 .bg-dark {
-    background-color: #0b2859!important;
+    background-color: white!important;
 }
 
 .nav{
-    background: #0b2859!important;
-    background-color: #0b2859!important;
+    background: white!important;
+    background-color: white!important;
 }
 
 .nav-item{
