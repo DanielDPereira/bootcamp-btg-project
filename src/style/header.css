@@ -20,7 +20,6 @@ body{
     flex-direction: column!important;
 }
 
-
 .navbar.navbar-expand-sm.bg-dark.navbar-dark{
     width:  100vw!important;     
 }
@@ -73,6 +72,5 @@ nav{
 .logo-top{
     display: flex;
     width: 15%;
-    height: 15%;
-    align-items: normal;
+    align-items:center
 }
