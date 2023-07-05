@@ -5,10 +5,12 @@ h1{
 
 .lider-azul{
     color: #307ae0;
+    font-size: 64px;
 }
 
 .lider-branco{
     color: white;
+    font-size: 64px;
 }
 
 body{
@@ -18,8 +20,6 @@ body{
 
 #background-video {
     position: fixed;
-    right: 0;
-    bottom: 0;
     min-width: 100%;
     min-height: 100%;
     width: auto;
@@ -37,9 +37,17 @@ body{
 h2{
     justify-content: left;
     color:rgb(207, 207, 207);
-    font-size: 2rem;
-    margin-left: 5%;
-    margin-right: 5%;
+    font-size: 2.2rem;
+    margin-left: 160px;
+    margin-right: 120px;
+}
+
+p{
+    justify-content: left;
+    color: black;
+    font-size: 1.5rem;
+    margin-left: 160px;
+    margin-right: 120px;
 }
 
 .video-btg{
