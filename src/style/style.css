@@ -31,4 +31,12 @@ body{
     z-index: 1;
     /* Outros estilos que você desejar */
   }
-  
+
+h2{
+    justify-content: left;
+    color:rgb(207, 207, 207);
+    font-size: 2rem;
+    margin-left: 5%;
+    margin-right: 5%;
+
+  }
