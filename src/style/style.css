@@ -55,21 +55,30 @@ h2{
     justify-content: left;
     color: black;
     font-size: 1.5rem;
-    margin-left: 120px;
-    margin-right: 120px;
+    margin-left: 1%;
+    text-align: justify;
 }
 
 .video-btg{
-    max-width: 100vw;
-    margin-left: 160px;
-    margin-right: 0px;
+    margin-left: 2%;
+    margin-right: 2%;
     align-items: center;
     border-radius: 15px;
     border: 4px solid #0b2859;
+    align-items: center;
+    margin-bottom: 1%;
 }
 
 .div-video{
     justify-content: center;
     display: flex;
     align-items: center;
+    margin: 3%;
+}
+
+/* Função ficar acima do texto quando a tela tiver mais que 670px de largura*/
+@media only screen and (max-width: 870px){
+    .div-video{
+        flex-direction: column;
+    }
 }
