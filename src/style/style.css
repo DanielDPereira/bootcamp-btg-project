@@ -13,6 +13,7 @@ h1{
 
 body{
     background-color: #0b2859;
+    overflow-x: hidden;
 }
 
 #background-video {
