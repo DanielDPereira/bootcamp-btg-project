@@ -40,3 +40,16 @@ h2{
     margin-left: 5%;
     margin-right: 5%;
 }
+
+.video-btg{
+    max-width: 90vw;
+    align-items: center;
+    border-radius: 15px;
+    border: 4px solid #0b2859;
+}
+
+.div-video{
+    justify-content: center;
+    display: flex;
+    align-items: center;
+}
