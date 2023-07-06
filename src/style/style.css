@@ -65,8 +65,10 @@ h2{
 .div-video{
     justify-content: center;
     display: flex;
+    flex-direction: row;
     align-items: center;
     margin: 3%;
+    width: 90%;
 }
 
 /* Função ficar acima do texto quando a tela tiver mais que 670px de largura*/
@@ -80,4 +82,18 @@ h2{
     color:white;
     font-size: 36px;
     margin-left: 5%;
+}
+ 
+.blue-button {
+    background-color: blue;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    margin-top: 10px;
+    align-items: center;
+  }
+
+.texto_e_botao{
+    text-align: center;
 }
