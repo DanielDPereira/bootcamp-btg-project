@@ -114,3 +114,7 @@ section{
 	filter: drop-shadow(0 0 0.4em rgb(255, 255, 255));
 	max-width: 90%!important;
 }
+
+.table__plan-currency_rocket{
+	color:#1C223A;
+}
