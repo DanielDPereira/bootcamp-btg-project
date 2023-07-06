@@ -1,0 +1,28 @@
+{
+    "Depoimentos": [
+        {
+        "Nome": "José",
+        "Idade": "22 anos",
+        "Área de atuação": "Cientista de dados",
+        "Depoimentos": "Trabalhar no BTG é sensacional, eu posso ajudar a melhorar o mundo e compartilhar experiências incríveis com os meus co-workers. "
+        },
+        {
+        "Nome": "Cátia",
+        "Idade": "33 anos", 
+        "Área de atuação":"Engenheira de front-end",
+        "Depoimentos": "O BTG me possibilitou trabalhar tendo em vista o objetivo que sempre quis: poder transformar o mundo!"
+        },
+        {    
+        "Nome": "Paulo",
+        "Idade": "44 anos",
+        "Área de atuação": "Analista de sistemas",
+        "Depoimentos": "No BTG, a inovação é parte do nosso DNA."
+        }, 
+        {
+        "Nome": "Fabiana",
+        "Idade": "27 anos",
+        "Área de atuação":"Desenvolvedor Back-end", 
+        "Depoimentos": "O ambiente de trabalho aqui é muito dinâmico e todos têm espaço para expor suas ideias e desenvolvê-las com o apoio da empresa. "
+        }
+    ]
+}
