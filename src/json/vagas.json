@@ -1,8 +1,26 @@
 {
-    "vaga 1": "Engenheiro de software",
-    "vaga 2": "Analista de sistemas ",
-    "vaga 3": "Analista de dados",
-    "vaga 4": "Desenvolvedor Front-end",
-    "vaga 5": "Arquiteto de soluções"
+    "Vagas": [
+        {
+            "Oportunidade": "Analista de dados",
+            "Descricao": "Interpretar dados, analisar resultados e utilizar técnicas estatísticas. Desenvolver e implementar análises de dados, sistemas de coleta de dados e outras estratégias que otimizem a eficiência e a qualidade estatística."
+        },
+        {
+            "Oportunidade": "Engenheiro de software",
+            "Descricao": "Desenvolver programas, firmware, aplicativos, scripts e sistemas afins."
+        },
+
+        {
+            "Oportunidade": "Desenvolvedor de front-end",
+            "Descricao": "Profissional  que se ocupa da engenharia de software que coloca em prática projetos de design por meio de linguagens de programação como HTML, CSS, JavaScript e usando frameworks de Bootstrap."
+        },
+        {
+            "Oportunidade": "Analista de sistemas",
+            "Descricao": " Realiza os estudos de processos a fim de encontrar o melhor caminho racional para que a informação possa ser processada."
+        },
+        {
+            "Oportunidade": "Arquiteto de soluções", 
+            "Descricao": "Alinha a tecnologia já utilizada pelo negócio e propor novas soluções com aqueles recursos."
+        } 
+    ]
 
 }
