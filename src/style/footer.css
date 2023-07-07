@@ -80,3 +80,8 @@ i {
 .footer__bottom .footer__list {
     flex-direction: row;
 }
+
+.footer__title{
+    align-items: center!important;
+    left: 50%;
+}
