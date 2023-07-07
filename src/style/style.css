@@ -91,7 +91,7 @@ h2{
     }
 }
 
-.H-valores{
+.H-valores, .h3-vagas{
     color:white;
     font-size: 36px;
     margin-left: 42vw;
@@ -109,9 +109,4 @@ h2{
 
 .texto_e_botao{
     text-align: center;
-}
-
-.h3-vagas{
-    font-size: 36px;
-    margin-left: 42vw;
 }
