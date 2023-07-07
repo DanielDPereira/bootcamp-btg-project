@@ -105,6 +105,8 @@ h2{
     border-radius: 5px;
     margin-top: 10px;
     align-items: center;
+    filter: drop-shadow(0 0 0.4em rgba(0, 173, 254));
+
   }
 
 .texto_e_botao{

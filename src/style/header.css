@@ -84,3 +84,7 @@ nav{
     width: 11%;
     align-items:center
 }
+
+.navbar-toggler{
+    color:gray!important;
+}
