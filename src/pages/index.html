@@ -1,4 +1,3 @@
-
 <!DOCTYPE html>
 <html lang="en">
 
@@ -60,23 +59,16 @@
 
     <div id="content">
 
-        <br>
-        <br>
-        <br>
-
         <div class="texto-acima-video">
 
-            <h1><span class="lider-branco">O BANCO</span> <span class="lider-azul">LÍDER </span><span
-                    class="lider-branco">EM TECNOLOGIA</span></h1>
+            <h1 class="titulo-site"><span class="lider-branco">O BANCO </span><span class="lider-azul">LÍDER </span><span class="lider-branco">EM TECNOLOGIA</span></h1>
 
             <br>
 
-            <h2>Venha ser o futuro da INOVAÇÃO no maior banco de investimentos da América Latina.<br>#DêUmBTG</h2>
+            <h2 class="DeumBTG">Venha ser o futuro da INOVAÇÃO no maior banco de investimentos da América Latina.<br>#DêUmBTG</h2>
 
         </div>
 
-        <br>
-        <br>
         <br>
 
         <div style="background-color: white;">
@@ -85,19 +77,15 @@
 
             <div class="div-video">
                 
-                <iframe class="video-btg" width="4340" height="360" src="https://www.youtube.com/embed/tIZRzspiUQ0"
-                    title="YouTube video player" frameborder="0"
-                    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
-                    allowfullscreen>
-                </iframe>
+                <iframe class="video-btg" width="4340" height="360" src="https://www.youtube.com/embed/tIZRzspiUQ0" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
 
                 <br>
                     
                 <div class="texto_e_botao">
 
-                    <p class="chamada-video">"Bem-vindo ao BTG, um ambiente onde a inovação e a tecnologia são a essência de tudo o que fazemos. Neste vídeo, você terá a oportunidade de mergulhar no mundo dos profissionais de tecnologia que atuam no BTG, um banco líder em tecnologia. Descubra como é fazer parte de uma equipe que está constantemente desbravando novos horizontes, impulsionando soluções revolucionárias e moldando o futuro do setor financeiro. Prepare-se para conhecer as mentes brilhantes por trás da transformação digital, as experiências enriquecedoras e as oportunidades emocionantes que aguardam você como Tech no BTG. Vamos explorar juntos!"</p>
+                    <p class="chamada-video">Bem-vindo ao BTG, onde a inovação e a tecnologia são a essência de tudo o que fazemos. Nesse vídeo, você irá se aprofundar na realidade dos profissionais de tecnologia que atuam no BTG. Descubra como é fazer parte de uma equipe que está sempre descobrindo uma novidade, moldando o futuro do setor financeiro e promovendo soluções revolucionárias. Esteja preparado para conhecer mentes brilhantes por trás das mudanças digitais e ter oportunidades emocionantes que aguardam você como Tech no BTG. Vamos explorar juntos!</p>
                 
-                    <button class="blue-button">Confira as vagas disponíveis!</button>
+                    <button class="blue-button" onclick="scrollToDiv()">Confira as vagas disponíveis!</button>
 
                 </div>
 
@@ -165,72 +153,89 @@
         </div>
         
         <section class="container main-section">
-            <div class="row">
-              <div class="col-md-3 col-sm-3 col-xs-12 card-main-section">
-                <div class="row card-part">
-                  <div class="col-md-12 col-sm-12 col-xs-12 card-title">
-                    <h1 id="titulo-vaga">Card Title</h1>
-                  </div>
-                  <div class="col-md-12 col-sm-12 col-xs-12 card-description">
-                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
-                      tempor incididunt ut labore et dolore magna aliqua.
-                    </p>
-                  </div>
-                  <div class="col-md-12 col-sm-12 col-xs-12 card-cart">
-                    <a href="#" class="btn btn-info">Ver detalhes</a>
-                  </div>
+            <div id="vagas">
+                <div class="row">
+
+                    <div class="col-md-3 col-sm-3 col-xs-12 card-main-section">
+                        <div class="row card-part">
+                        <div class="col-md-12 col-sm-12 col-xs-12 card-title">
+                            <h1 id="titulo-vaga">Analista de dados</h1>
+                        </div>
+                        <div class="col-md-12 col-sm-12 col-xs-12 card-description">
+                            <p>Interpretar dados, analisar resultados e utilizar técnicas estatísticas. Desenvolver e implementar análises de dados, sistemas de coleta de dados e outras estratégias que otimizem a eficiência e a qualidade estatística.
+                            </p>
+                        </div>
+                        <div class="col-md-12 col-sm-12 col-xs-12 card-cart">
+                            <a href="#" class="btn btn-info">Ver detalhes</a>
+                        </div>
+                        </div>
+                    </div>
+                
+                    <div class="col-md-3 col-sm-3 col-xs-12 card-main-section">
+                        <div class="row card-part">
+                            <div class="col-md-12 col-sm-12 col-xs-12 card-title">
+                                <h1>Engenheiro de software</h1>
+                            </div>
+                            <div class="col-md-12 col-sm-12 col-xs-12 card-description">
+                                <p>Desenvolver programas, firmware, aplicativos, scripts e sistemas afins.
+                                </p>
+                            </div>
+                            <div class="col-md-12 col-sm-12 col-xs-12 card-cart">
+                                <a href="#" class="btn btn-info">Ver detalhes</a>
+                            </div>
+                        </div>
+                    </div>
+                
+                <div class="col-md-3 col-sm-3 col-xs-12 card-main-section">
+                    <div class="row card-part">
+                    <div class="col-md-12 col-sm-12 col-xs-12 card-title">
+                        <h1>Desenvolvedor de front-end</h1>
+                    </div>
+                    <div class="col-md-12 col-sm-12 col-xs-12 card-description">
+                        <p>Profissional  que se ocupa da engenharia de software que coloca em prática projetos de design por meio de linguagens de programação como HTML, CSS, JavaScript e usando frameworks de Bootstrap.
+                        </p>
+                    </div>
+                    <div class="col-md-12 col-sm-12 col-xs-12 card-cart">
+                        <a href="#" class="btn btn-info">Ver detalhes</a>
+                    </div>
+                    </div>
                 </div>
-              </div>
-              
-              <div class="col-md-3 col-sm-3 col-xs-12 card-main-section">
-                <div class="row card-part">
-                  <div class="col-md-12 col-sm-12 col-xs-12 card-title">
-                    <h1>Card Title</h1>
-                  </div>
-                  <div class="col-md-12 col-sm-12 col-xs-12 card-description">
-                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
-                      tempor incididunt ut labore et dolore magna aliqua.
-                    </p>
-                  </div>
-                  <div class="col-md-12 col-sm-12 col-xs-12 card-cart">
-                    <a href="#" class="btn btn-info">LINK</a>
-                  </div>
+                
+                <div class="col-md-3 col-sm-3 col-xs-12 card-main-section">
+                    <div class="row card-part">
+                    <div class="col-md-12 col-sm-12 col-xs-12 card-title">
+                        <h1>Analista de sistemas</h1>
+                    </div>
+                    <div class="col-md-12 col-sm-12 colxs-12 card-description">
+                        <p>Realiza os estudos de processos a fim de encontrar o melhor caminho racional para que a informação possa ser processada.
+                        </p>
+                    </div>
+                    <div class="col-md-12 col-sm-12 col-xs-12 card-cart">
+                        <a href="#" class="btn btn-info">Ver detalhes</a>
+                    </div>
+                    </div>
                 </div>
-              </div>
-              
-              <div class="col-md-3 col-sm-3 col-xs-12 card-main-section">
-                <div class="row card-part">
-                  <div class="col-md-12 col-sm-12 col-xs-12 card-title">
-                    <h1>Card Title</h1>
-                  </div>
-                  <div class="col-md-12 col-sm-12 col-xs-12 card-description">
-                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
-                      tempor incididunt ut labore et dolore magna aliqua.
-                    </p>
-                  </div>
-                  <div class="col-md-12 col-sm-12 col-xs-12 card-cart">
-                    <a href="#" class="btn btn-info">LINK</a>
-                  </div>
+
+                    <div class="col-md-3 col-sm-3 col-xs-12 card-main-section">
+                        <div class="row card-part">
+                        <div class="col-md-12 col-sm-12 col-xs-12 card-title">
+                            <h1>Arquiteto de soluções</h1>
+                        </div>
+                        <div class="col-md-12 col-sm-12 colxs-12 card-description">
+                            <p>Alinha a tecnologia já utilizada pelo negócio e propor novas soluções com aqueles recursos.
+                            </p>
+                        </div>
+                        <div class="col-md-12 col-sm-12 col-xs-12 card-cart">
+                            <a href="#" class="btn btn-info">Ver detalhes</a>
+                        </div>
+                        </div>
+                    </div>
+                    </div>
+
                 </div>
-              </div>
-              
-              <div class="col-md-3 col-sm-3 col-xs-12 card-main-section">
-                <div class="row card-part">
-                  <div class="col-md-12 col-sm-12 col-xs-12 card-title">
-                    <h1>Card Title</h1>
-                  </div>
-                  <div class="col-md-12 col-sm-12 colxs-12 card-description">
-                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
-                      tempor incididunt ut labore et dolore magna aliqua.
-                    </p>
-                  </div>
-                  <div class="col-md-12 col-sm-12 col-xs-12 card-cart">
-                    <a href="#" class="btn btn-info">LINK</a>
-                  </div>
-                </div>
-              </div>
             </div>
-          </section>
+
+        </section>
 
         <footer class="footer">
             <div class="footer__container">
@@ -347,5 +352,15 @@
     integrity="sha384-fQybjgWLrvvRgtW6bFlB7jaZrFsaBXjsOMm/tB9LTS58ONXgqbR9W8oWht/amnpF"
     crossorigin="anonymous"></script>
 
+<script src="../script/script.js" defer></script>
+
+<script src="../script/botao.js" defer></script>
+
+<script>
+    function scrollToDiv() {
+      var div = document.getElementById('vagas');
+      div.scrollIntoView({ behavior: 'smooth' });
+    }
+  </script>
 
 </html>
