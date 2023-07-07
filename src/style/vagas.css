@@ -30,6 +30,6 @@
     padding-top: 10px;
 }
 
-.col-md-12 col-sm-12 colxs-12 card-description{
-    text-align: justify;
+.descricao-vaga{
+    text-align: justify!important;
 }
